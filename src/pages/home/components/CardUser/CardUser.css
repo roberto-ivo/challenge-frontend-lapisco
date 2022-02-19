@@ -1,0 +1,56 @@
+.Card {
+  background-color: #292f45;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 5px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.Card-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Card-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card-column-infos {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 !important; */
+  align-items: left;
+  justify-content: center;
+  overflow-wrap: break-word;
+}
+
+.Card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e2e2e2;
+}
+
+.Card-subtitle {
+  font-size: 15px;
+  font-weight: normal;
+  color: #aaaaaa;
+}
+
+.Card-cellphone {
+  font-size: 15px;
+  font-weight: normal;
+  color: #aaaaaa;
+}
+
+.Card-email {
+  font-size: 14px;
+  font-weight: normal;
+  color: #de8e46;
+}

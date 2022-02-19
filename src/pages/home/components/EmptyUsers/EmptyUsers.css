@@ -1,0 +1,30 @@
+.Card-empty {
+  background-color: #292f45;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 5px;
+  margin: 20px;
+  /* height: 100%; */
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.Card-row-empty {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Empty-img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 80px !important;
+}
+
+.Title-empty {
+  font-size: 20px;
+  color: #de8e46;
+  margin: 0px 30px;
+}
